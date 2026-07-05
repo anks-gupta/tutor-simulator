@@ -156,7 +156,7 @@ Detailed documentation is available in the [`docs/`](./docs) directory:
 
 ## 🌐 Live Practical Demo
 
-Demo is Live on [Vercel](https://tutor-simulator.vercel.app/){:target="_blank"}
+Demo is Live on [Vercel](https://tutor-simulator.vercel.app/)
 
 ---
 
