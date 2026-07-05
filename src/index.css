@@ -639,3 +639,198 @@ body {
   color: var(--text-primary);
   box-shadow: 0 0 12px var(--active-glow);
 }
+
+/* ================================================================
+   Sidebar Sections
+   ================================================================ */
+
+.sidebar-branding {
+  padding: 20px 16px 12px;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.sidebar-branding h1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  background: linear-gradient(to right, #f59e0b, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sidebar-branding p {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  margin-top: 4px;
+}
+
+.sidebar-mode-selector {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--glass-border);
+  display: flex;
+  gap: 8px;
+}
+
+.mode-btn {
+  flex: 1;
+  padding: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.sidebar-tutors {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px 16px 12px;
+}
+
+/* ================================================================
+   Code Block Rendering (Markdown)
+   ================================================================ */
+
+.code-block-wrapper {
+  margin: 12px 0;
+  position: relative;
+}
+
+.code-block-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111827;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 6px 12px;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.code-block-copy-btn {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: 0.75rem;
+  transition: color 0.2s ease;
+}
+
+.code-block-copy-btn:hover {
+  color: var(--text-primary);
+}
+
+.code-block-wrapper pre {
+  margin: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* ================================================================
+   Markdown Rendered Elements (inside message bubbles)
+   ================================================================ */
+
+.md-heading-h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 16px 0 10px;
+  color: var(--text-primary);
+}
+
+.md-heading-h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 14px 0 8px;
+  color: var(--text-primary);
+}
+
+.md-heading-h4 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 12px 0 6px;
+  color: var(--text-primary);
+}
+
+.md-paragraph {
+  margin: 6px 0;
+}
+
+.md-spacer {
+  height: 8px;
+}
+
+.md-ul {
+  margin: 6px 0 6px 20px;
+  list-style-type: disc;
+}
+
+.md-ol {
+  margin: 6px 0 6px 20px;
+  list-style-type: decimal;
+}
+
+.md-ul li,
+.md-ol li {
+  margin: 6px 0;
+}
+
+.md-inline-code {
+  font-family: var(--font-mono);
+  background: rgba(0, 0, 0, 0.3);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.md-bold {
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+/* ================================================================
+   Chat Header & Welcome State
+   ================================================================ */
+
+.chat-header-status {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.message-sender {
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+  opacity: 0.9;
+}
+
+.welcome-empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--text-secondary);
+  text-align: center;
+  gap: 12px;
+  padding: 24px;
+}
+
+.welcome-emoji {
+  font-size: 3rem;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.welcome-emoji.clash {
+  font-size: 3.5rem;
+}
+
+.welcome-description {
+  font-size: 0.85rem;
+  max-width: 420px;
+}
+
