@@ -4,7 +4,7 @@ An interactive, AI-powered web application simulating conversations with two of 
 
 Built using a secure **Next.js App Router** server architecture with OpenAI models (via system instructions and Hinglish few-shot examples) to replicate their distinct speaking styles, teaching approaches, and personalities.
 
-**🔗 Live Demo:** [https://tutor-avatar-chat.vercel.app](https://tutor-avatar-chat.vercel.app)
+**🔗 Live Demo:** [https://tutor-simulator.vercel.app](https://tutor-simulator.vercel.app)
 
 ---
 
@@ -151,12 +151,6 @@ Detailed documentation is available in the [`docs/`](./docs) directory:
 - **Glassmorphism Design System**: Built with CSS custom properties and `backdrop-filter` for frosted-glass effects.
 - **Custom Markdown Renderer**: Supports headers, ordered/unordered lists, inline code, code blocks with copy-to-clipboard, and bold text — all rendered safely without `dangerouslySetInnerHTML`.
 - **Persistent Chat History**: Conversations are stored in `localStorage` and restored on page load with hydration-safe mount guards.
-
----
-
-## 🌐 Live Practical Demo
-
-Demo is Live on [Vercel](https://tutor-simulator.vercel.app/)
 
 ---
 
