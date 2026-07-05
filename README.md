@@ -154,18 +154,9 @@ Detailed documentation is available in the [`docs/`](./docs) directory:
 
 ---
 
-## 🌐 Deployment (Vercel — Free Tier)
+## 🌐 Live Practical Demo
 
-This project is designed for one-click deployment on [Vercel](https://vercel.com):
-
-1. Push your code to GitHub.
-2. Go to [vercel.com/new](https://vercel.com/new) and import your GitHub repository.
-3. Add the following **Environment Variables** in Vercel's project settings:
-   - `OPENAI_API_KEY` = your OpenAI API key
-   - `OPENAI_MODEL_NAME` = `gpt-4o`
-   - `CHAT_RATE_LIMIT` = `3`
-   - `DEBATE_RATE_LIMIT` = `1`
-4. Click **Deploy**. Vercel will automatically build and host your app.
+Demo is Live on [Vercel](https://tutor-simulator.vercel.app/):
 
 ---
 
